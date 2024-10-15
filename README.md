@@ -5,7 +5,7 @@
 Los circuitos RLC ofrecen unas propiedades oscilatorias, ya que, están compuestos por resistencias (R), bobinas que producen inductancia (L) y capacitores (C), exhiben una variedad de resultados dinámicos cuando se tiene una fuente de entrada. Estos circuitos varían según los valores de los componentes y la frecuencia de la señal de entrada. Produciendo diferentes formas de oscilar, desde oscilaciones amortiguadas hasta críticamente amortiguadas.
 
 En un circuito LC, la energía está en constante intercambio entre el inductor y el capacitor, lo que da lugar a un comportamiento de oscilación que no desaparece. Sin embargo, al agregar una resistencia R al circuito, la energía comienza a disiparse como calor; dependiendo del valor de R, el sistema puede comportarse de distintas maneras:
-![Tipo_oscilaciones]("C:\Users\TATTIANA\Desktop\UNIVERSIDAD\QUINTO SEMESTRE\PROGRAMACIÓN\PROYECTOS_PROGRAMACIÓN\PROYECTO_1\TIPOSCILACIONES.jpg"){width=100px}
+![Tipo_oscilaciones](https://images.app.goo.gl/QFvxm1SdCrgcUHJF6){width=100px}
 1.	**Subamortiguado**: $R<2\sqrt \frac {L}{C}$. Son aquellos sistemas donde el circuito oscila, pero su amplitud decrece con el tiempo.
 2.	**Críticamente amortiguado**: $R=2\sqrt \frac {L}{C}$. Son dichos sistemas donde el circuito alcanza el equilibrio más rápido sin oscilar.
 3.	**Sobreamortiguado**: $R>2\sqrt \frac {L}{C}$. Sucede cuando los circuitos no oscilan y la corriente disminuye exponencialmente sin oscilaciones de por medio. 
