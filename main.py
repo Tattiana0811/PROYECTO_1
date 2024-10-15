@@ -79,23 +79,23 @@ class CircuitoRLC(CircuitoLC):
         plt.show()
 
 # Parámetros para un circuito subamortiguado
-L = 1 # Henrys
-C = 1# Faradios
-R = 0.7 # Ohmios
+L = 0.5 # Henrys
+C = 0.02# Faradios
+R = 5 # Ohmios
 V_in = 1 # Voltios
 
 # Parámetros para un circuito criticamente amortiguado
 
-#L = 1 # Henrys
-#C = 1# Faradios
-#R = 2 # Ohmios
+#L = 0.5 # Henrys
+#C = 0.02# Faradios
+#R = 10 # Ohmios
 #V_in = 1 # Voltios
 
 # Parámetros para un circuito sobreamortiguado
 
-#L = 1 # Henrys
-#C = 1# Faradios
-#R = 2.8 # Ohmios
+#L = 0.5 # Henrys
+#C = 0.02# Faradios
+#R = 20 # Ohmios
 #V_in = 1 # Voltios
 
 # Crear objeto del CircuitoRLC
