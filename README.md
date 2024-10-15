@@ -33,7 +33,7 @@ Se ha añadido un decorador `@property` para permitir que algunos valores, como 
 
   $$L  \frac {d^2q(t)}{dt^2}+R \frac{dq(t)}{dt}+\frac{1}{C} q(t)=V_{in} (t)$$
   
-  Donde $q(t)$ es la carga en el capacitor y $V_in (t)$ es el voltaje aplicado.
+  Donde $q(t)$ es la carga en el capacitor y $V_{in}(t)$ es el voltaje aplicado.
 Esta ecuación se resuelve iterativamente para determinar la corriente y el voltaje en el circuito en función del tiempo.
 5. Visualización y Animación
   Se ha utilizado *Matplotlib* para la creación de gráficos y animaciones.
