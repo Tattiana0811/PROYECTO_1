@@ -81,7 +81,7 @@ class CircuitoRLC(CircuitoLC):
 # Parámetros para un circuito subamortiguado
 L = 0.5 # Henrys
 C = 0.02# Faradios
-R = 5 # Ohmios
+R = 1 # Ohmios
 V_in = 1 # Voltios
 
 # Parámetros para un circuito criticamente amortiguado
@@ -102,8 +102,8 @@ V_in = 1 # Voltios
 circuito_rlc = CircuitoRLC(L, C, R, V_in)
 
 # Calcular y graficar las oscilaciones
-I = circuito_rlc.calcular_oscilaciones()
-circuito_rlc.graficar_oscilaciones(I)
-circuito_rlc.animar_oscilaciones(I)
+T = circuito_rlc.calcular_oscilaciones()
+circuito_rlc.graficar_oscilaciones(T)
+circuito_rlc.animar_oscilaciones(T)
 
 
