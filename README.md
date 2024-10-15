@@ -35,11 +35,13 @@ Se ha añadido un decorador `@property` para permitir que algunos valores, como 
   
   Donde $q(t)$ es la carga en el capacitor y $V_{in}(t)$ es el voltaje aplicado.
 Esta ecuación se resuelve iterativamente para determinar la corriente y el voltaje en el circuito en función del tiempo.
+
 5. Visualización y Animación
   Se ha utilizado *Matplotlib* para la creación de gráficos y animaciones.
   -	El gráfico muestra la oscilación de la corriente a través del circuito en función del tiempo.
   -	También se ha implementado una animación que ilustra cómo la corriente oscila (o se amortigua) dependiendo del valor de la resistencia.
   -	La animación permite visualizar el comportamiento subamortiguado, críticamente amortiguado y sobreamortiguado.
+
 6. Modularización y Generalización
   El código está altamente modularizado. Esto significa que las diferentes partes del código, como las clases para el circuito y las funciones numéricas, están separadas y organizadas en módulos que pueden ser reutilizados en futuros proyectos.
   -	Por ejemplo, se puede implementar fácilmente un circuito diferente agregando una nueva clase sin modificar gran parte del código existente.
