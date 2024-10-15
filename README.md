@@ -24,7 +24,7 @@ Para modelar el problema del circuito RLC, se emplea la herencia múltiple, abst
   •	Esto nos permite definir clases reutilizables y bien estructuradas.
   •	Se aplican los principios de abstracción para ocultar detalles internos y facilitar la interacción a través de métodos específicos.
 2. Encapsulación
-Los atributos clave del circuito, como la resistencia RRR, la inductancia $L$ y la capacitancia $C$, están encapsulados utilizando el decorador `@property` para garantizar un acceso controlado. Esto asegura que los parámetros del circuito puedan leerse o modificarse de forma segura sin interferir directamente con los atributos internos.
+Los atributos clave del circuito, como la resistencia $R$, la inductancia $L$ y la capacitancia $C$, están encapsulados utilizando el decorador `@property` para garantizar un acceso controlado. Esto asegura que los parámetros del circuito puedan leerse o modificarse de forma segura sin interferir directamente con los atributos internos.
 3. Decoradores Adicionales
 Se ha añadido un decorador `@property` para permitir que algunos valores, como la frecuencia natural del circuito y el factor de amortiguamiento, se calculen sobre la marcha en lugar de almacenarse explícitamente. Esto es útil para extender la funcionalidad de la clase sin modificar el flujo principal del programa.
 4. Método Numérico
