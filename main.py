@@ -78,11 +78,25 @@ class CircuitoRLC(CircuitoLC):
         plt.ylabel('Corriente [A]')
         plt.show()
 
-# Parámetros del circuito
+# Parámetros para un circuito subamortiguado
 L = 1 # Henrys
 C = 1# Faradios
 R = 0.7 # Ohmios
 V_in = 1 # Voltios
+
+# Parámetros para un circuito criticamente amortiguado
+
+#L = 1 # Henrys
+#C = 1# Faradios
+#R = 2 # Ohmios
+#V_in = 1 # Voltios
+
+# Parámetros para un circuito sobreamortiguado
+
+#L = 1 # Henrys
+#C = 1# Faradios
+#R = 2.8 # Ohmios
+#V_in = 1 # Voltios
 
 # Crear objeto del CircuitoRLC
 circuito_rlc = CircuitoRLC(L, C, R, V_in)
